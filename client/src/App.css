@@ -1,0 +1,148 @@
+
+.icono {
+  height: 90px;  
+  width: auto;
+  z-index: 4;
+  overflow: auto;
+  position: absolute;
+  
+}
+
+.nav-item{
+  position: relative;
+  left: 90px;
+}
+
+
+
+.fondo {
+  background-image: linear-gradient(#8f8e8e, rgba(255, 255, 255, 0.4)), url(imagenes/fondo.jpg);
+  
+}
+
+
+.header {
+  
+  
+  width: auto;
+  background-size: 147%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.titulo {
+  font-family: 'Bangers', cursive;
+  color: white;
+  font-size: 14vw;
+  /* font-weight: bold; */
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+  text-align: center;
+  z-index: 2;    
+  
+}
+
+.cuadro {
+  height: auto;
+  background-color: rgba(78, 78, 78, 0.863);
+  border-radius: 15px;
+  box-shadow: 9px 10px 10px 0px rgba(0,0,0,0.6);
+  padding: 3vw;
+  
+}
+
+.card {
+  width: 18rem;
+}
+
+.ultimos {
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 9vw;
+}
+
+.stars {
+  background-color: white;
+  text-align: center;
+  
+}
+.stars2 {
+  background-color: white;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  
+}
+
+.desc1 {
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.desc2 {
+  background-color: white;
+  text-align: center;
+  color: black;
+  
+}
+
+.footer {
+  
+  padding: 20px;
+  
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: black;
+  
+ 
+
+
+}
+
+.form-label{
+  font-weight: bold;
+}
+
+.form-text{
+  color: rgb(141, 66, 39);
+  font-weight: bolder;
+}
+
+.redes {
+  width: 35px;
+  height: auto;
+}
+
+
+.cuadro2 {
+  height: auto;
+  background-color: rgba(78, 78, 78, 0.863);
+  border-radius: 15px;
+  box-shadow: 9px 10px 10px 0px rgba(0,0,0,0.6);
+  
+  
+}
+
+.tituloCatalogo {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+
+.indexCatalogo {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  z-index: 5;
+  height: 350px;
+}
+
+@media (max-width: 992px) {
+  .indexCatalogo {
+    
+    position: static;
+    
+  }
+}
+
+.tituloContacto {
+  font-family: 'Permanent Marker', cursive;
+}
